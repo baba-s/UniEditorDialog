@@ -10,7 +10,7 @@ using UnityEditor;
 
 public class Example
 {
-    private static EditorDialog m_editorDialog = new EditorDialog( "【ここにタイトル】" );
+    private static readonly EditorDialog m_editorDialog = new EditorDialog( "【ここにタイトル】" );
 
     [MenuItem( "Tools/Hoge" )]
     private static void Hoge()
